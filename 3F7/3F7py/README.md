@@ -1,7 +1,7 @@
-#3F7py_dk538
-##Part IIA Full Technical Report
+# 3F7py_dk538
+## Part IIA Full Technical Report
 
-####Running the code
+#### Running the code
 
 The program runs very similarly to the original lab, with a few extra functions added here and there. These are mostly in the `adaptive` module and within the original `camzip` and `camunzip` functions.
 
@@ -18,7 +18,7 @@ def run_test(method, filename, context_length)
 
 New options for method are `'context'` and `'model'`.
 
-#####Using the 'model' method
+##### Using the 'model' method
 
 When running with the `model` method, the model to be used must be entered in line 98 of `camzip.py`, which reads:
 
